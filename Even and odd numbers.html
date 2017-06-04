@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+<script>
+var a=Number(prompt("a")),
+    b=Number(prompt("b")),
+    c=Number(prompt("c"));
+if ((a%2>0)&&(b%2===0)){
+    console.log("YES ", + a, + b, + c);
+  }else if ((a%2===0)&&(b%2>0)) {
+    console.log("YES ", + a, + b, + c);
+  }else if((a%2>0)&&(c%2===0)){
+    console.log("YES " + a, + b, + c);
+  }else if((a%2===0)&&(c%2>0)){
+    console.log("YES ", + a, + b, + c );
+  }else if((b%2>0)&&(c%2===0)){
+    console.log("YES ", + a, + b, + c );
+  }else if((b%2===0)&&(c%2>0)){
+    console.log("YES ", + a, + b, + c ); 
+}else{
+  console.log("NO ", + a, + b, + c );
+}
+</script>
+
+</body>
+
+</html>

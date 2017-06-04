@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+<script>
+var a=Number(prompt("a")),
+    b=Number(prompt("b")),
+    c=Number(prompt("c")),
+    x=Number(prompt("x")),
+    y=Number(prompt("y"));
+if ((a<x)&&(b<y)) {
+  console.log("Yes");
+}else if ((a<y)&&(b<x)) {
+  console.log("Yes");
+}else if ((a<x)&&(c<y)) {
+  console.log("Yes");
+}else if ((a<y)&&(c<x)) {
+  console.log("Yes");
+}else if ((b<x)&&(c<y)) {
+  console.log("Yes");
+}else if ((b<y)&&(c<x)) {
+  console.log("Yes");
+}else {
+  console.log("No");
+}
+</script>
+
+</body>
+
+</html>
