@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+<script>
+var a1=Number(prompt("a1")),
+    a2=Number(prompt("a2")),
+    a3=Number(prompt("a3")),
+    b1=Number(prompt("b1")),
+    b2=Number(prompt("b2")),
+    b3=Number(prompt("b3")),
+    x1=Number(prompt("x1")),
+    x2=Number(prompt("x2")),
+    x3=Number(prompt("x3")),
+    y1=Number(prompt("y1")),
+    y2=Number(prompt("y2")),
+    y3=Number(prompt("y3")),
+    J=Number(prompt("J")),
+    w,m;
+w=b1+b2+b3;
+m=y1+y2+y3;
+if (w>=m) {
+  if ((x1<=a1)&&(x2<=a2)&&(x3<=a3)) {
+    if ((x1<a1)&&(b1>=(y1+J))) {
+       console.log("Yes");
+    }else if ((x2<a2)&&(b2>=(y2+J))) {
+       console.log("Yes");
+    }else if ((x3<a3)&&(b3>=(y3+J))) {
+       console.log("Yes");
+    }else {
+       console.log("No");
+    }
+  }else {
+    console.log("Re-enter x1,x2,x3");
+  }
+}else {
+  console.log("Re-enter weight");
+}
+</script>
+
+</body>
+
+</html>
